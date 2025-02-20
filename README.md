@@ -1,0 +1,1 @@
+This example demonstrates a common type error in TypeScript.  The `greeter` function expects a single string argument, but it receives an array of strings. This results in a compilation error because the types are incompatible. The solution involves either modifying the function to accept an array or modifying the way the user variable is handled.
